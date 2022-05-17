@@ -2,10 +2,10 @@ name: Luap Studio CI
 
 on:
   push:
-    branches: [ $default-branch ]
+    branches: [ main ]
   pull_request:
-    branches: [ $default-branch ]
+    branches: [ main ]
 
 jobs:
   build:
-    uses: Luap-Studio/workflows/.github/workflow-templates/base.yml@main
+    uses: Luap-Studio/workflows/.github/workflows/base.yml@main
